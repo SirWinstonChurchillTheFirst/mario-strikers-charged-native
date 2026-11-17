@@ -20,7 +20,7 @@ storage, controllers) is provided by the [wii-recomp runtime](https://github.com
 
 Tested with **R4QE01** (USA (NTSC), revision 1).
 
-Plays a VS match at about 60 fps, no graphics errors seen. Tested on Windows 11 by playing into the first real scene; on the Linux mini PC through the menus. Nothing here says the game is playable to the end.
+Plays a VS match at about 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: a VS match, 57.9 fps with some hitches (10 frames over 34 ms in 37 s, the longest 65 ms)). Nothing here says the game is playable to the end.
 
 Only what is written here has been tested. It has not been played to the end. Other regions
 or revisions may work but are untested.
