@@ -32,5 +32,5 @@
       "url": "https://ko-fi.com/krogger"
     }
   ],
-  "notes": "Plays a VS match at about 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: a VS match, 59.5 fps with the disc on an SSD, still a few hitches (5 frames over 34 ms in 57 s, the longest 103 ms); from a hard disk more, as the game reads the disc during play). Nothing here says the game is playable to the end. Built with AI assistance (Claude)."
+  "notes": "Plays a VS match at 60 fps, no graphics errors seen. Tested on the Linux mini PC by playing a match (60.0 fps, no frame over 20 ms in 45 s, with the disc on an SSD; from a hard disk there are hitches, as the game reads the disc during play) and on Windows 11 (with the current runtime version up to the team menus; a match with the version before). Nothing here says the game is playable to the end. Built with AI assistance (Claude)."
 }

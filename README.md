@@ -20,7 +20,7 @@ storage, controllers) is provided by the [wii-recomp runtime](https://github.com
 
 Tested with **R4QE01** (USA (NTSC), revision 1).
 
-Plays a VS match at about 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: a VS match, 59.5 fps with the disc on an SSD, still a few hitches (5 frames over 34 ms in 57 s, the longest 103 ms); from a hard disk more, as the game reads the disc during play). Nothing here says the game is playable to the end.
+Plays a VS match at 60 fps, no graphics errors seen. Tested on the Linux mini PC by playing a match (60.0 fps, no frame over 20 ms in 45 s, with the disc on an SSD; from a hard disk there are hitches, as the game reads the disc during play) and on Windows 11 (with the current runtime version up to the team menus; a match with the version before). Nothing here says the game is playable to the end.
 
 Only what is written here has been tested. It has not been played to the end. Other regions
 or revisions may work but are untested.
@@ -36,7 +36,7 @@ The same 90-second run on both machines: started from the disc, the same scripte
 | Machine | Average fps | 1 % low fps | Busy | Frames over 20 ms |
 |---|---|---|---|---|
 | High budget: Windows 11, Intel Core i7-13700KF, NVIDIA GeForce RTX 3070 Ti, 32 GB | 59.5 | 31.2 | 20.4 % | 0.18 % |
-| Low budget: Batocera Linux mini PC (HP), AMD Ryzen 3 PRO 4350GE with Radeon Vega 6 graphics, 8 GB | 59.4 | 29.9 | 33.6 % | 0.16 % |
+| Low budget: Batocera Linux mini PC (HP), AMD Ryzen 3 PRO 4350GE with Radeon Vega 6 graphics, 8 GB | 59.5 | 30.8 | 30.3 % | 0.16 % |
 
 ## Build and play
 
@@ -74,7 +74,7 @@ Wii Remote and Nunchuk (the default): mouse points, Enter is A, Backspace is B.
 ## How it's made
 
 - Runtime: [https://github.com/SirWinstonChurchillTheFirst/wii-recomp](https://github.com/SirWinstonChurchillTheFirst/wii-recomp) (branch `windows-port`, tested at
-  `25ee096b1378`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
+  `3367ea407700`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
   Windows support and the fixes this game needed. GPL-3.0-or-later.
 - Hardware behaviour follows [Dolphin](https://dolphin-emu.org) where noted in the runtime's
   CREDITS.md.
